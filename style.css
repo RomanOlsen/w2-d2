@@ -4,6 +4,19 @@ body {
 
 
 .icecream-cards {
-  height: 50vh;
+  height: 60vh;
   object-fit: cover;
+}
+
+.raleway {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.permanent-marker {
+  font-family: "Permanent Marker", serif;
+  font-weight: 400;
+  font-style: normal;
 }
