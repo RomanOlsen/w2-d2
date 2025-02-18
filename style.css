@@ -1,0 +1,9 @@
+body {
+  background-color: bisque;
+}
+
+
+.icecream-cards {
+  height: 50vh;
+  object-fit: cover;
+}
