@@ -55,6 +55,7 @@ let iceCreams = [
   },
 ]
 
+// hi
 
 function addToCart(arrayNumber) {
 
