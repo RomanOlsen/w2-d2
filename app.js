@@ -58,6 +58,8 @@ let iceCreams = [
 // hi 
 // sadiasd 
 
+// new test
+
 function addToCart(arrayNumber) {
 
   const iceCream = iceCreams[arrayNumber]
