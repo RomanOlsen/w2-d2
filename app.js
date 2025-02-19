@@ -10,14 +10,11 @@ let total = 0
 //   totalScreen.innerText = total
 // }
 
-function addToCart(arrayNumber) {
-  qty = iceCream[arrayNumber].quantity
-  iceCream[arrayNumber].quantity++
-  document.getElementById('qtyText')
-  qtyText.innerText = qty
-}
 
-let iceCream = [
+
+
+
+let iceCreams = [
   // Regular icecream (cheap) | ARRAY STARTS AT 0
   {
     flavor: 'Chocolate',
@@ -57,3 +54,28 @@ let iceCream = [
     price: 8
   },
 ]
+
+
+function addToCart(arrayNumber) {
+
+  const iceCream = iceCreams[arrayNumber]
+  iceCream.quantity++
+
+  // updateText()
+
+}
+
+function updateText() {
+
+  let html = ``
+  document.getElementById('flavorText')
+  flavorText.innerText = flavor
+  document.getElementById('dairyFreeText')
+  dairyFreeText.innerText = isRegular
+  document.getElementById('priceText')
+  priceText.innerText = price
+  document.getElementById('qtyText')
+  qtyText.innerText = qty
+  console.log('log')
+
+}
